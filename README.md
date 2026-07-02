@@ -9,22 +9,20 @@
 
 A Deep Learning project for sentiment classification of Gojek user reviews using TensorFlow and Bidirectional LSTM.
 
-![Training History](assets/training-history.png)
-
 ---
 
 ## Overview
 
-This project performs sentiment analysis on Gojek application reviews collected from Google Play Store.
+This project analyzes user reviews of the Gojek application collected from the Google Play Store.
 
-The workflow includes:
+The workflow covers the complete machine learning pipeline, including:
 
 - Data scraping
 - Text preprocessing
-- Label encoding
-- Deep Learning model training
+- Sentiment labeling
+- Model training
 - Model evaluation
-- Confusion Matrix visualization
+- Performance visualization
 
 ---
 
@@ -32,9 +30,9 @@ The workflow includes:
 
 Source:
 
-Google Play Store Reviews (Gojek)
+**Google Play Store Reviews (Gojek)**
 
-Sentiment Classes
+Sentiment Classes:
 
 - Positive
 - Neutral
@@ -46,11 +44,12 @@ Sentiment Classes
 
 - Google Play review scraping
 - Indonesian text preprocessing
-- LSTM & BiLSTM comparison
-- EarlyStopping
-- Confusion Matrix
+- LSTM & Bidirectional LSTM models
+- EarlyStopping callback
 - Classification Report
-- Accuracy evaluation
+- Confusion Matrix
+- Training History visualization
+- Model performance evaluation
 
 ---
 
@@ -90,11 +89,13 @@ sentiment-analysis-gojek/
 
 ## Model Architecture
 
+The best-performing model uses:
+
 - Embedding Layer
 - Bidirectional LSTM
 - Dropout
-- Dense Layer
-- Softmax Output
+- Dense Layer (ReLU)
+- Softmax Output Layer
 
 ---
 
@@ -113,10 +114,10 @@ sentiment-analysis-gojek/
 ## Future Improvements
 
 - Increase dataset size
-- Better class balancing
-- Transformer-based models (IndoBERT)
+- Improve class balance
 - Hyperparameter tuning
-- Deploy using Streamlit
+- Transformer-based models (IndoBERT)
+- Deploy using Streamlit or TensorFlow Serving
 
 ---
 
