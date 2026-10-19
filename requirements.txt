@@ -1,0 +1,7 @@
+google-play-scraper==1.2.7
+tensorflow
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
