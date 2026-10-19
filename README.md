@@ -57,18 +57,6 @@ The recurrent models share the following structural components:
 
 ---
 
-## Project Structure
+## License
 
-```text
-sentiment-analysis-gojek/
-├── assets/
-│   ├── banner.png
-│   ├── confusion-matrix.png
-│   └── training-history.png
-├── dataset_gojek.csv            # Labeled reviews dataset
-├── scraping.ipynb               # Google Play Store review scraper
-├── sentiment_analysis.ipynb     # Model training and comparison experiments
-├── requirements.txt
-├── LICENSE
-└── README.md
-```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
